@@ -5,21 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gio.js - Get started</title>
+  <script src="https://threejs.org/build/three.min.js"></script>
+  <script src="https://raw.githack.com/syt123450/giojs/master/build/gio.min.js"></script>
+  <script src="https://raw.githack.com/syt123450/giojs/master/assets/data/sampleData.js"></script>
 </head>
 
 <body>
   <div id="globeArea" style="width: 100vw; height: 100vh"></div>
 
-  <script src="https://threejs.org/build/three.min.js"></script>
-  <script src="https://raw.githack.com/syt123450/giojs/master/build/gio.min.js"></script>
-  <script src="https://raw.githack.com/syt123450/giojs/master/assets/data/sampleData.js"></script>
-
-  <script>
-    const container = document.getElementById("globeArea");
-    const controller = new GIO.Controller(container);
-    controller.addData(data);
-    controller.init();
-  </script>
+  <script src="js/index.js"></script>
 </body>
 
 </html>
